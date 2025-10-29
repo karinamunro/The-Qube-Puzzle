@@ -9,7 +9,7 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
 
 2. Clone or download the repository.
 
-3. Change into the repository directory.
+3. Change into the repository directory.   
    `cd "<path-to-repository-directory>"`
 
 5. Install the dependencies.   
