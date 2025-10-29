@@ -3,8 +3,8 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
 
 ## Installation
 
-1. Create a new Conda virtual environment with Python 3.14.0. E.g.   
-   `conda create -n qube python=3.14.0`    
+1. Create a new Conda virtual environment with Python 3.13.5. E.g.   
+   `conda create -n qube python=3.13.5`    
    `conda activate qube`   
 
 2. Clone or download the repository.
