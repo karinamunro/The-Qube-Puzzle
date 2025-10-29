@@ -22,3 +22,4 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
 
 <img src="docs/main_game.png" width="60%">
 
+<img src="docs/scramble_game.png" width="60%">
