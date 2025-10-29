@@ -10,11 +10,12 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
 2. Clone or download the repository.
 
 3. Change into the repository directory.
+   `cd "<path-to-repository-directory>"`
 
-4. Install the dependencies.   
+5. Install the dependencies.   
    `pip install -r requirements.txt`
 
-5. Run the game.   
+6. Run the game.   
    `python the_qube_game_thesis.py`
 
 ## Instructions
