@@ -19,8 +19,6 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
 
 ## Instructions
 
-![Game Screenshot](docs/main_game.png)
 
-
-<img src="docs/main_game.png" width="50%">
+<img src="docs/main_game.png" width="60%">
 
