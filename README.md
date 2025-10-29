@@ -18,3 +18,5 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
    `python the_qube_game_thesis.py`
 
 ## Instructions
+
+![Game Screenshot](docs/main_game.png)
