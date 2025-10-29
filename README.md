@@ -1,7 +1,7 @@
 # The Qube Puzzle
 Code for Karina Munro's 2025 Honours thesis at RMIT University.
 
-## Installation
+## Installation (Conda required)
 
 1. Create a new Conda virtual environment with Python 3.13.5. E.g.   
    `conda create -n qube python=3.13.5`    
