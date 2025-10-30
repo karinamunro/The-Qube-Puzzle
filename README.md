@@ -26,7 +26,7 @@ Note: Click **Help**&#8594;**Keyboard Shortcuts** for shortcuts on all the funct
 <img src="docs/pennylane_instructions.png" width="60%">
 
 ### Windows
-<img src="docs/pennylane_initial.png" width="45%"> <img src="docs/pennylane_random.png" width="45%">
+<img src="docs/pennylane_initial.png" width="47%"> <img src="docs/pennylane_random.png" width="45%">
 
 ### Mac
 <img src="docs/main_game.png" width="45%"><img src="docs/scramble_game.png" width="45%">
