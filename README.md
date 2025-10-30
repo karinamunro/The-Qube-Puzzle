@@ -20,7 +20,12 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
 
 ## Instructions
 
+### Windows
+<img src="docs/pennylane_initial.png" width="60%">
 
+<img src="docs/pennylane_random.png" width="60%">
+
+### Mac
 <img src="docs/main_game.png" width="60%">
 
 <img src="docs/scramble_game.png" width="60%">
