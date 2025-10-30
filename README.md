@@ -23,6 +23,8 @@ To start the game, press the **Scramble** button. The aim of the game is to **Me
 
 Note: Click **Help**&#8594;**Keyboard Shortcuts** for shortcuts on all the functionalities.
 
+<img src="docs/pennylane_instructions.png" width="60%">
+
 ### Windows
 <img src="docs/pennylane_initial.png" width="60%">
 
