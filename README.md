@@ -21,7 +21,7 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
 ## Instructions
 To start the game, press the **Scramble** button. The aim of the game is to **Measure** the Qube and collapse the state to the solved state marked by the star ⭐. To increase your chances of solving the Qube, combine the amplitudes by using quantum **R2**, **U2**, and **F2** moves dictated by the **step size** (the sliding bar). Use the classical **R2**, **U2**, and **F2** moves to move the locations of basis states without changing the amplitudes.
 
-Note: Click **Help**->**Keyboard Shortcuts** for shortcuts on all the functionalities. Additionally, there are some secret moves that exist only by clicking a key which are not listed in **Help**. See if you can find these moves.
+Note: Click **Help**&rarr**Keyboard Shortcuts** for shortcuts on all the functionalities. There are also some secret moves that are accessible only by clicking particular keys, which are not listed in **Help**. See if you can find these moves.
 
 ### Windows
 <img src="docs/pennylane_initial.png" width="60%">
