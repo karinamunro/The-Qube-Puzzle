@@ -28,7 +28,7 @@ Note: Click **Help**&#8594;**Keyboard Shortcuts** for shortcuts on all the funct
 ## Examples of Code Output
 
 ### Windows
-<img src="docs/pennylane_initial.png" width="45.5%"> <img src="docs/pennylane_random.png" width="45%">
+<img src="docs/pennylane_initial.png" width="45.3%"> <img src="docs/pennylane_random.png" width="44.8%">
 
 ### Mac
 <img src="docs/main_game.png" width="45%"><img src="docs/scramble_game.png" width="45%">
