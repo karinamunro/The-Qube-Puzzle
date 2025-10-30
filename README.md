@@ -19,6 +19,7 @@ Code for Karina Munro's 2025 Honours thesis at RMIT University.
    `python the_qube_game_thesis.py`
 
 ## Instructions
+To start the game, press the **Scramble** button. The aim of the game is to **Measure** the Qube and collapse the state to the solved state marked by the star ⭐.
 
 ### Windows
 <img src="docs/pennylane_initial.png" width="60%">
