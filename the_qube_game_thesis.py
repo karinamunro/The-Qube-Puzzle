@@ -1,6 +1,6 @@
 ######################################################################
 # Note:
-# Needs Cube_Images folder and perm_matrices.py
+# Needs cube_images folder and perm_matrices.py
 
 ######################################################################
 
@@ -215,7 +215,7 @@ def main(Ham=None, measure_option="N", time_step=1):
                     canvas.create_oval(state_dict[cube_state][0]-50, state_dict[cube_state][1]-50,state_dict[cube_state][0]+50, 
                                     state_dict[cube_state][1]+50, fill=colour.Color(hue=hue, saturation=1, luminance = lum),outline="", tags="circle")
 
-    image_path = os.path.join("Cube_Images", "honeycomb_connections_CMY.png") # os.path.join depends on the operating system
+    image_path = os.path.join("cube_images", "honeycomb_connections_CMY.png") # os.path.join depends on the operating system
     background_image = tk.PhotoImage(file=image_path)
     canvas.create_image(750, 400, image=background_image, tags = "Nauru_graph") # Nauru graph
 
@@ -223,7 +223,7 @@ def main(Ham=None, measure_option="N", time_step=1):
     for cube_state in state_dict:
         if state_dict[cube_state][3] >= 1e-3: # Percentage has to be greater than 0.1% (0.001 in dictionary) -> aligns with label now
 
-            im = Image.open(os.path.join("Cube_Images", f"{cube_state}.PNG"))
+            im = Image.open(os.path.join("cube_images", f"{cube_state}.PNG"))
             im_resize = im.resize((im.width // 5, im.height // 5)) # This reduces the size without losing quality yay
             alpha_pixels = list(im_resize.getdata()) # Pixels
 
@@ -476,7 +476,7 @@ def pop_up():
     elif option == "Efficient": # Alternative. Press keys right, up and left.
         image = "keyboard_shortcuts_alt.png"
 
-    popup_path = Image.open(os.path.join("Cube_Images", image))
+    popup_path = Image.open(os.path.join("cube_images", image))
     popup_path.thumbnail((960,540)) # Similar to .resize()
     popup_image = ImageTk.PhotoImage(popup_path)
 
@@ -619,12 +619,12 @@ def GUI():
     )
 
     # Nauru graph image
-    image_path = os.path.join("Cube_Images", "honeycomb_connections_CMY.png")
+    image_path = os.path.join("cube_images", "honeycomb_connections_CMY.png")
     background_image = tk.PhotoImage(file=image_path)
     canvas.create_image(750, 400, image=background_image, tags="Nauru_graph")
 
     # Solved state cube image
-    im = Image.open(os.path.join("Cube_Images", "00000.png"))
+    im = Image.open(os.path.join("cube_images", "00000.png"))
     im_resize = im.resize((im.width // 5, im.height // 5))
     current_image = ImageTk.PhotoImage(im_resize)
     canvas.create_image(state_dict["00000"][0],state_dict["00000"][1],image=current_image, tags="current_image")
@@ -633,15 +633,15 @@ def GUI():
     canvas.create_text(state_dict["00000"][0],(state_dict["00000"][1]+60), text="100%", fill="white", font=("Cambria Math",12,"bold"), tags="initial_text")
 
     # Rainbow image for quantum scramble button
-    rainbow = Image.open(os.path.join("Cube_Images", "rainbow.png"))
+    rainbow = Image.open(os.path.join("cube_images", "rainbow.png"))
     rainbow_resize = rainbow.resize((150,60))
     rainbow = ImageTk.PhotoImage(rainbow_resize)
 
     # Clockwise and anticlockwise image to go on top of QuR2 buttons to indicate move and inverse move
-    anti_clock = Image.open(os.path.join("Cube_Images", "anti_clock.png"))
+    anti_clock = Image.open(os.path.join("cube_images", "anti_clock.png"))
     anti_clock_resize = anti_clock.resize((anti_clock.width//10, anti_clock.height//10))
     anti_clock = ImageTk.PhotoImage(anti_clock_resize)
-    clock = Image.open(os.path.join("Cube_Images", "clock.png"))
+    clock = Image.open(os.path.join("cube_images", "clock.png"))
     clock_resize = clock.resize((40,40))
     clock = ImageTk.PhotoImage(clock_resize)
 
@@ -649,8 +649,8 @@ def GUI():
     canvas.create_image(200,250,image=clock)
 
     # On and Off button for the magnitude and angle buttons
-    on = Image.open(os.path.join("Cube_Images", "toggle_on.png"))
-    off = Image.open(os.path.join("Cube_Images", "toggle_off.png"))
+    on = Image.open(os.path.join("cube_images", "toggle_on.png"))
+    off = Image.open(os.path.join("cube_images", "toggle_off.png"))
     on_image = ImageTk.PhotoImage(on.resize((on.width // 16, on.height // 16)))
     off_image = ImageTk.PhotoImage(off.resize((on.width // 16, on.height // 16)))
     canvas.on_image = on_image
