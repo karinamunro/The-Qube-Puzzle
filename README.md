@@ -25,6 +25,8 @@ Note: Click **Help**&#8594;**Keyboard Shortcuts** for shortcuts on all the funct
 
 <img src="docs/pennylane_instructions.png" width="60%">
 
+## Code output
+
 ### Windows
 <img src="docs/pennylane_initial.png" width="43.5%"> <img src="docs/pennylane_random.png" width="42%">
 
